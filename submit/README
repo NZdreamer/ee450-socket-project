@@ -1,0 +1,22 @@
+1. name: Yufei Lu
+
+2. student ID: yufeilu
+
+3. my work
+using c++ to complete a small demo for assigning clients to different hospitals according to hosptials' occupancies and distance between them. Using UDP socket to communicate between scheduler and hospital, while using TCP socket to communicate between scheduler and clients. In this assignment, I code socket in c++, find the shortest path using Dijkstra's algorithm, struggle with some logic problems, use makefile and linux commands and so on.
+
+4.  code files
+scheduler.cpp: interacting with the client and the hospitals
+client.cpp: request to go to a hospital
+hospitalA.cpp/ hospitalB.cpp/ hospitalC.cpp: calculate the score
+datatype.hpp: data type used when communicating through socket
+map.hpp: create map and find the shortest distance for all hospital 
+Makefile: create 5 executable files
+
+5 format of all the messages exchanged
+char buffer[64]
+
+6 idosyncrasy
+
+7 reused code
+function Dijk in "map.hpp", it's from google.
